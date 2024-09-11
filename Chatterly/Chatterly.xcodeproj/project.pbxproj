@@ -17,6 +17,12 @@
 		72B245E42C920E5300C98322 /* StreamChatTestMockServer in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E32C920E5300C98322 /* StreamChatTestMockServer */; };
 		72B245E62C920E5300C98322 /* StreamChatTestTools in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E52C920E5300C98322 /* StreamChatTestTools */; };
 		72B245E82C920E5300C98322 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E72C920E5300C98322 /* StreamChatUI */; };
+		72B245EB2C92250200C98322 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EA2C92250200C98322 /* Nuke */; };
+		72B245ED2C92250200C98322 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EC2C92250200C98322 /* NukeExtensions */; };
+		72B245EF2C92250200C98322 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EE2C92250200C98322 /* NukeUI */; };
+		72B245F12C92250200C98322 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F02C92250200C98322 /* NukeVideo */; };
+		72B245F42C92254E00C98322 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F32C92254E00C98322 /* SwiftyGif */; };
+		72B245F62C92254E00C98322 /* SwiftyGif-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +42,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B245E22C920E5300C98322 /* StreamChat in Frameworks */,
+				72B245EF2C92250200C98322 /* NukeUI in Frameworks */,
 				72B245E62C920E5300C98322 /* StreamChatTestTools in Frameworks */,
+				72B245F62C92254E00C98322 /* SwiftyGif-Dynamic in Frameworks */,
+				72B245F12C92250200C98322 /* NukeVideo in Frameworks */,
 				72B245E82C920E5300C98322 /* StreamChatUI in Frameworks */,
 				72B245E42C920E5300C98322 /* StreamChatTestMockServer in Frameworks */,
+				72B245EB2C92250200C98322 /* Nuke in Frameworks */,
+				72B245ED2C92250200C98322 /* NukeExtensions in Frameworks */,
+				72B245F42C92254E00C98322 /* SwiftyGif in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +108,12 @@
 				72B245E32C920E5300C98322 /* StreamChatTestMockServer */,
 				72B245E52C920E5300C98322 /* StreamChatTestTools */,
 				72B245E72C920E5300C98322 /* StreamChatUI */,
+				72B245EA2C92250200C98322 /* Nuke */,
+				72B245EC2C92250200C98322 /* NukeExtensions */,
+				72B245EE2C92250200C98322 /* NukeUI */,
+				72B245F02C92250200C98322 /* NukeVideo */,
+				72B245F32C92254E00C98322 /* SwiftyGif */,
+				72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */,
 			);
 			productName = Chatterly;
 			productReference = 72B245C92C920BA600C98322 /* Chatterly.app */;
@@ -127,6 +145,8 @@
 			mainGroup = 72B245C02C920BA600C98322;
 			packageReferences = (
 				72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */,
+				72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
 			);
 			productRefGroup = 72B245CA2C920BA600C98322 /* Products */;
 			projectDirPath = "";
@@ -388,6 +408,22 @@
 				minimumVersion = 4.62.0;
 			};
 		};
+		72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexiscreuzot/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -410,6 +446,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
 			productName = StreamChatUI;
+		};
+		72B245EA2C92250200C98322 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		72B245EC2C92250200C98322 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		72B245EE2C92250200C98322 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		72B245F02C92250200C98322 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		72B245F32C92254E00C98322 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = "SwiftyGif-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
