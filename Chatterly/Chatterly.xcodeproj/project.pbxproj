@@ -14,6 +14,7 @@
 		7207A5602C9383FD00764961 /* CustomChatChannelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */; };
 		7207A5622C942BE400764961 /* ChatChannelListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */; };
 		7207A5642C9446D500764961 /* CustomChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5632C9446D500764961 /* CustomChannelViewController.swift */; };
+		7207A5662C994CED00764961 /* CustomChatMessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */; };
 		72B245CD2C920BA600C98322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245CC2C920BA600C98322 /* AppDelegate.swift */; };
 		72B245CF2C920BA600C98322 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245CE2C920BA600C98322 /* SceneDelegate.swift */; };
 		72B245D12C920BA600C98322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245D02C920BA600C98322 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatChannelHeaderView.swift; sourceTree = "<group>"; };
 		7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatChannelListCollectionViewCell.swift; sourceTree = "<group>"; };
 		7207A5632C9446D500764961 /* CustomChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelViewController.swift; sourceTree = "<group>"; };
+		7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatMessageListVC.swift; sourceTree = "<group>"; };
 		72B245C92C920BA600C98322 /* Chatterly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatterly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B245CC2C920BA600C98322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B245CE2C920BA600C98322 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */,
 				7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */,
 				7207A5632C9446D500764961 /* CustomChannelViewController.swift */,
+				7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */,
 			);
 			path = ChatsTheme;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7207A5662C994CED00764961 /* CustomChatMessageListVC.swift in Sources */,
 				7207A5602C9383FD00764961 /* CustomChatChannelHeaderView.swift in Sources */,
 				72B245D12C920BA600C98322 /* ViewController.swift in Sources */,
 				7207A5622C942BE400764961 /* ChatChannelListCollectionViewCell.swift in Sources */,
@@ -337,8 +341,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chatterly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -353,6 +358,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,8 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chatterly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -378,8 +385,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly.kol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

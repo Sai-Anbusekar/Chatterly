@@ -29,8 +29,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         Components.default.channelContentView = iMessageChannelListItemView.self
         Components.default.channelHeaderView = CustomChatChannelHeaderView.self
         Components.default.channelCell = ChatChannelListCell.self
+        Components.default.messageComposerView = CustomChatMessageComposerView.self
         
-        Components.default.messageListVC = CustomMessageListVC.self
+       // Components.default.messageListVC = CustomMessageListVC.self
         window?.rootViewController = UINavigationController(rootViewController: chatVC)
     }
 

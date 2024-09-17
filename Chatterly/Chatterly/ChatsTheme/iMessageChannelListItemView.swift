@@ -50,7 +50,11 @@ class iMessageChannelListItemView: ChatChannelListItemView {
         titleLabel.textColor = .white
         titleLabel.font = UIFont(name: "Verdana Bold", size: 14)
         
-        
+//        let appearance = Appearance(colors: colors, images: images, fonts: fonts)
+//
+//        let utils = Utils(channelNamer: channelNamer)
+//
+//        streamChat = StreamChat(chatClient: chatClient, appearance: appearance, utils: utils)
         
         backgroundColor = UIColor(named: "bgColor")
         

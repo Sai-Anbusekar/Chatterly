@@ -7,6 +7,7 @@
 
 import UIKit
 import StreamChatUI
+import StreamChat
 
 class DemoChannelList: ChatChannelListVC {
 
@@ -32,6 +33,15 @@ class DemoChannelList: ChatChannelListVC {
 
         collectionView.backgroundColor = UIColor(named: "bgColor")
         
+        // Customize collection view layout
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            layout.minimumLineSpacing = 0 // Space between the message cells (change to your desired value)
+            layout.sectionInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: -40) // Add margins around the cells
+            collectionView.collectionViewLayout = layout
+//            collectionView.separatorInset
+//            layout.sectionInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
+             
+        }
         
     }
 
