@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import StreamChat
+import StreamChatUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,7 +18,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = scene as? UIWindowScene else { return }
+
+       
+        
+        ChatManager.shared.setup()
+        ChatManager.shared.signIn(with: "anbu89")
+        let chatVC = ChatManager.shared.FetchChannelList()
+        
+        Components.default.channelContentView = iMessageChannelListItemView.self
+        Components.default.channelHeaderView = CustomChatChannelHeaderView.self
+        Components.default.channelCell = ChatChannelListCell.self
+        Components.default.messageComposerView = CustomChatMessageComposerView.self
+        
+       // Components.default.messageListVC = CustomMessageListVC.self
+        window?.rootViewController = UINavigationController(rootViewController: chatVC)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

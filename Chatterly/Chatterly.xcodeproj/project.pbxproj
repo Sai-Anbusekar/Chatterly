@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7207A5562C93289200764961 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 7207A5552C93289200764961 /* StreamChat */; };
+		7207A5582C93289200764961 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7207A5572C93289200764961 /* StreamChatUI */; };
+		7207A55B2C9328B100764961 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A55A2C9328B100764961 /* ChatManager.swift */; };
+		7207A55E2C93782900764961 /* iMessageChannelListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A55D2C93782900764961 /* iMessageChannelListItemView.swift */; };
+		7207A5602C9383FD00764961 /* CustomChatChannelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */; };
+		7207A5622C942BE400764961 /* ChatChannelListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */; };
+		7207A5642C9446D500764961 /* CustomChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5632C9446D500764961 /* CustomChannelViewController.swift */; };
+		7207A5662C994CED00764961 /* CustomChatMessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */; };
 		72B245CD2C920BA600C98322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245CC2C920BA600C98322 /* AppDelegate.swift */; };
 		72B245CF2C920BA600C98322 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245CE2C920BA600C98322 /* SceneDelegate.swift */; };
 		72B245D12C920BA600C98322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B245D02C920BA600C98322 /* ViewController.swift */; };
 		72B245D42C920BA600C98322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B245D22C920BA600C98322 /* Main.storyboard */; };
 		72B245D62C920BA700C98322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B245D52C920BA700C98322 /* Assets.xcassets */; };
 		72B245D92C920BA700C98322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B245D72C920BA700C98322 /* LaunchScreen.storyboard */; };
-		72B245E22C920E5300C98322 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E12C920E5300C98322 /* StreamChat */; };
-		72B245E42C920E5300C98322 /* StreamChatTestMockServer in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E32C920E5300C98322 /* StreamChatTestMockServer */; };
-		72B245E62C920E5300C98322 /* StreamChatTestTools in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E52C920E5300C98322 /* StreamChatTestTools */; };
-		72B245E82C920E5300C98322 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245E72C920E5300C98322 /* StreamChatUI */; };
-		72B245EB2C92250200C98322 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EA2C92250200C98322 /* Nuke */; };
-		72B245ED2C92250200C98322 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EC2C92250200C98322 /* NukeExtensions */; };
-		72B245EF2C92250200C98322 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245EE2C92250200C98322 /* NukeUI */; };
-		72B245F12C92250200C98322 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F02C92250200C98322 /* NukeVideo */; };
-		72B245F42C92254E00C98322 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F32C92254E00C98322 /* SwiftyGif */; };
-		72B245F62C92254E00C98322 /* SwiftyGif-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7207A55A2C9328B100764961 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		7207A55D2C93782900764961 /* iMessageChannelListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListItemView.swift; sourceTree = "<group>"; };
+		7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatChannelHeaderView.swift; sourceTree = "<group>"; };
+		7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatChannelListCollectionViewCell.swift; sourceTree = "<group>"; };
+		7207A5632C9446D500764961 /* CustomChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelViewController.swift; sourceTree = "<group>"; };
+		7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatMessageListVC.swift; sourceTree = "<group>"; };
 		72B245C92C920BA600C98322 /* Chatterly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatterly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B245CC2C920BA600C98322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B245CE2C920BA600C98322 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,22 +45,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B245E22C920E5300C98322 /* StreamChat in Frameworks */,
-				72B245EF2C92250200C98322 /* NukeUI in Frameworks */,
-				72B245E62C920E5300C98322 /* StreamChatTestTools in Frameworks */,
-				72B245F62C92254E00C98322 /* SwiftyGif-Dynamic in Frameworks */,
-				72B245F12C92250200C98322 /* NukeVideo in Frameworks */,
-				72B245E82C920E5300C98322 /* StreamChatUI in Frameworks */,
-				72B245E42C920E5300C98322 /* StreamChatTestMockServer in Frameworks */,
-				72B245EB2C92250200C98322 /* Nuke in Frameworks */,
-				72B245ED2C92250200C98322 /* NukeExtensions in Frameworks */,
-				72B245F42C92254E00C98322 /* SwiftyGif in Frameworks */,
+				7207A5582C93289200764961 /* StreamChatUI in Frameworks */,
+				7207A5562C93289200764961 /* StreamChat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7207A5592C93289C00764961 /* ChatManger */ = {
+			isa = PBXGroup;
+			children = (
+				7207A55A2C9328B100764961 /* ChatManager.swift */,
+			);
+			path = ChatManger;
+			sourceTree = "<group>";
+		};
+		7207A55C2C93780400764961 /* ChatsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				7207A55D2C93782900764961 /* iMessageChannelListItemView.swift */,
+				7207A55F2C9383FD00764961 /* CustomChatChannelHeaderView.swift */,
+				7207A5612C942BE400764961 /* ChatChannelListCollectionViewCell.swift */,
+				7207A5632C9446D500764961 /* CustomChannelViewController.swift */,
+				7207A5652C994CED00764961 /* CustomChatMessageListVC.swift */,
+			);
+			path = ChatsTheme;
+			sourceTree = "<group>";
+		};
 		72B245C02C920BA600C98322 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,8 @@
 		72B245CB2C920BA600C98322 /* Chatterly */ = {
 			isa = PBXGroup;
 			children = (
+				7207A55C2C93780400764961 /* ChatsTheme */,
+				7207A5592C93289C00764961 /* ChatManger */,
 				72B245CC2C920BA600C98322 /* AppDelegate.swift */,
 				72B245CE2C920BA600C98322 /* SceneDelegate.swift */,
 				72B245D02C920BA600C98322 /* ViewController.swift */,
@@ -104,16 +122,8 @@
 			);
 			name = Chatterly;
 			packageProductDependencies = (
-				72B245E12C920E5300C98322 /* StreamChat */,
-				72B245E32C920E5300C98322 /* StreamChatTestMockServer */,
-				72B245E52C920E5300C98322 /* StreamChatTestTools */,
-				72B245E72C920E5300C98322 /* StreamChatUI */,
-				72B245EA2C92250200C98322 /* Nuke */,
-				72B245EC2C92250200C98322 /* NukeExtensions */,
-				72B245EE2C92250200C98322 /* NukeUI */,
-				72B245F02C92250200C98322 /* NukeVideo */,
-				72B245F32C92254E00C98322 /* SwiftyGif */,
-				72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */,
+				7207A5552C93289200764961 /* StreamChat */,
+				7207A5572C93289200764961 /* StreamChatUI */,
 			);
 			productName = Chatterly;
 			productReference = 72B245C92C920BA600C98322 /* Chatterly.app */;
@@ -144,9 +154,7 @@
 			);
 			mainGroup = 72B245C02C920BA600C98322;
 			packageReferences = (
-				72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
-				72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */,
-				72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+				7207A5542C93289200764961 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
 			);
 			productRefGroup = 72B245CA2C920BA600C98322 /* Products */;
 			projectDirPath = "";
@@ -175,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7207A5662C994CED00764961 /* CustomChatMessageListVC.swift in Sources */,
+				7207A5602C9383FD00764961 /* CustomChatChannelHeaderView.swift in Sources */,
 				72B245D12C920BA600C98322 /* ViewController.swift in Sources */,
+				7207A5622C942BE400764961 /* ChatChannelListCollectionViewCell.swift in Sources */,
 				72B245CD2C920BA600C98322 /* AppDelegate.swift in Sources */,
 				72B245CF2C920BA600C98322 /* SceneDelegate.swift in Sources */,
+				7207A5642C9446D500764961 /* CustomChannelViewController.swift in Sources */,
+				7207A55B2C9328B100764961 /* ChatManager.swift in Sources */,
+				7207A55E2C93782900764961 /* iMessageChannelListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +341,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chatterly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -343,6 +358,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,8 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chatterly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -368,8 +385,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterly.kol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,82 +418,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+		7207A5542C93289200764961 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GetStream/stream-chat-swift";
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.62.0;
-			};
-		};
-		72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kean/Nuke.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.8.0;
-			};
-		};
-		72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alexiscreuzot/SwiftyGif.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.5;
+				minimumVersion = 4.63.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		72B245E12C920E5300C98322 /* StreamChat */ = {
+		7207A5552C93289200764961 /* StreamChat */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			package = 7207A5542C93289200764961 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
 			productName = StreamChat;
 		};
-		72B245E32C920E5300C98322 /* StreamChatTestMockServer */ = {
+		7207A5572C93289200764961 /* StreamChatUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
-			productName = StreamChatTestMockServer;
-		};
-		72B245E52C920E5300C98322 /* StreamChatTestTools */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
-			productName = StreamChatTestTools;
-		};
-		72B245E72C920E5300C98322 /* StreamChatUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E02C920E5300C98322 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			package = 7207A5542C93289200764961 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
 			productName = StreamChatUI;
-		};
-		72B245EA2C92250200C98322 /* Nuke */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = Nuke;
-		};
-		72B245EC2C92250200C98322 /* NukeExtensions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = NukeExtensions;
-		};
-		72B245EE2C92250200C98322 /* NukeUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = NukeUI;
-		};
-		72B245F02C92250200C98322 /* NukeVideo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245E92C92250200C98322 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = NukeVideo;
-		};
-		72B245F32C92254E00C98322 /* SwiftyGif */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
-			productName = SwiftyGif;
-		};
-		72B245F52C92254E00C98322 /* SwiftyGif-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72B245F22C92254E00C98322 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
-			productName = "SwiftyGif-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
